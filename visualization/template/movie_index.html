@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>首页</title>
+        <link rel="stylesheet" href="css/movie.css">
+    </head>
+    <body>
+        <p>
+            用 node 服务器的方式运行，通过通用后端 API 获取数据
+        </p>
+        <div id="pieByStar" class="chart"></div>
+        <div id="pieByDirector" class="chart"></div>
+        <div id="bar" class="chart"></div>
+        <div id="line" class="chart"></div>
+        <!-- echarts 是一个流行的图表库, 百度出品 -->
+        <script src="/js/lib/jquery.min.js"></script>
+        <script src="/js/lib/lodash.min.js"></script>
+        <script src="/js/lib/echarts.min.js"></script>
+        <!-- api.js 中是获取数据的代码 -->
+        <script src="js/api.js"></script>
+        <!-- movie.js 中是利用 echarts 渲染整个页面的代码 -->
+        <script src="js/echarts_options.js"></script>
+        <script src="js/movie.js"></script>
+    </body>
+</html>

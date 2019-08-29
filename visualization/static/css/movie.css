@@ -1,0 +1,13 @@
+.chart {
+    width: 800px;
+    height: 500px;
+}
+
+.chart#pieByStar {
+    width: 800px;
+    height: 500px;
+}
+.chart#pieByDirector {
+    width: 800px;
+    height: 600px;
+}
