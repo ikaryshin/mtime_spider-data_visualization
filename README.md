@@ -16,6 +16,9 @@
 4. 访问 `http://localhost:8000`。
 
 # 项目效果
+## 爬虫
+![mtime_spider.gif](https://i.loli.net/2019/09/03/49wDLAd2morN7X6.gif)
+## 数据可视化
 ![movie.png](https://i.loli.net/2019/08/29/DFJm9zH3buK8NtC.png)
 ![point.png](https://i.loli.net/2019/08/29/ZVuRQvF5c72p1JT.png)
 ![stars.png](https://i.loli.net/2019/08/29/2TEWJhxBcMVsp8j.png)
